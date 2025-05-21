@@ -1,6 +1,6 @@
 baseURL = "https://ejmastnak.com/"
 languageCode = 'en-us'
-title = 'ejmastnak'
+title = 'rickshf'
 disableKinds = ['taxonomy', 'term', 'section']
 
 [markup]
