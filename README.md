@@ -1,5 +1,3 @@
-# ejmastnak.com
-
 Based on the original repository from [ejmastnak.com](https://github.com/ejmastnak/ejmastnak.com). Thank You!
 
 Source files for [my website](https://www.ejmastnak.com/)—feel free to clone and reuse under the [license](https://www.ejmastnak.com/license/).
