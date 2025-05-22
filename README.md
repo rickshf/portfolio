@@ -11,7 +11,7 @@ Assuming you have Hugo and Node.js installed, you can reproduce the website on y
 
 ```bash
 # Clone the website
-git clone https://github.com/ejmastnak/ejmastnak.com](https://github.com/rickshf/portfolio
+git clone https://github.com/rickshf/portfolio
 
 # Change into the website root directory
 cd portfolio
