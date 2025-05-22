@@ -11,10 +11,10 @@ Assuming you have Hugo and Node.js installed, you can reproduce the website on y
 
 ```bash
 # Clone the website
-git clone https://github.com/ejmastnak/ejmastnak.com
+git clone https://github.com/ejmastnak/ejmastnak.com](https://github.com/rickshf/portfolio
 
 # Change into the website root directory
-cd ejmastnak.com
+cd portfolio
 
 # Install Node packages (for TailwindCSS)
 npm install
