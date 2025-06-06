@@ -84,7 +84,7 @@ hamburgerListbox.addEventListener('keydown', function(event) {
 
 // Used with arrow key and tab navigation to move focus/selection to next item
 function moveToNextHamburgerItem() {
-  idx = nextHamburgerIdx();
+  let idx = nextHamburgerIdx();
   removeAllHamburgerBG();
   hamburgerMenuItems[idx].classList.add(hamburgerBGActive, hamburgerBGActiveDark);
   hamburgerActiveItem = hamburgerMenuItems[idx];
@@ -93,7 +93,7 @@ function moveToNextHamburgerItem() {
 
 // Used with arrow key and tab navigation to move focus/selection to previous item
 function moveToPrevHamburgerItem() {
-  idx = prevHamburgerIdx();
+  let idx = prevHamburgerIdx();
   removeAllHamburgerBG();
   hamburgerMenuItems[idx].classList.add(hamburgerBGActive, hamburgerBGActiveDark);
   hamburgerActiveItem = hamburgerMenuItems[idx];
