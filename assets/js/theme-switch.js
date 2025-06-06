@@ -222,7 +222,7 @@ themeswitchListbox.addEventListener('keydown', function(event) {
 
 // Used with arrow key and tab navigation to move selection to next option
 function moveToNextThemeswitchOption() {
-  movedToOption = nextOption();
+  let movedToOption = nextOption();
   removeAllBG();
   movedToOption.classList.add(themeswitchBGActive, themeswitchBGActiveDark);
   themeswitchActiveOption = movedToOption;
@@ -230,7 +230,7 @@ function moveToNextThemeswitchOption() {
 
 // Used with arrow key and tab navigation to move selection to previous option
 function moveToPrevThemeswitchOption() {
-  movedToOption = prevOption();
+  let movedToOption = prevOption();
   removeAllBG();
   movedToOption.classList.add(themeswitchBGActive, themeswitchBGActiveDark);
   themeswitchActiveOption = movedToOption;
