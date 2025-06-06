@@ -464,7 +464,7 @@ You can:
 
   {{< img-centered src="move-frame.gif" width="100%" alt="GIF: demonstrating navigation between Beamer frames." >}}
 
-<!-- **TODO:** I did not get this motion ot work in testing! -->
+<!-- **TODO:** I did not get this motion to work in testing! -->
 <!-- - Jump to the beginning of the next or previous LaTeX comment (i.e. text beginning with `%`) -->
 <!--   using `]/` and `<Plug>(vimtex-]/`, and `[/` `<Plug>(vimtex-]star`). -->
 
