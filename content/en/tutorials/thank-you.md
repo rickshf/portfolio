@@ -10,7 +10,7 @@ Presumably you've found this page because an article, tutorial, or other resourc
 In that case thank *you*, I very much appreciate it!
 You could:
 
-- [Send me an email!]({{< relref "/contact" >}})
+- [Send me an email!]({{< relref "/en/contact" >}})
   Seriously, if something on this website helped you, it will make my day to know.
   I love hearing from readers, and you'll almost certainly get a message back from me.
   If you feel like it, drop me a few lines about your background and/or how you found this site—I'm always interested to hear! 
