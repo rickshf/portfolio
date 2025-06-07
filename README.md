@@ -3,11 +3,16 @@ Based on the original repository from [ejmastnak](https://github.com/ejmastnak/e
 
 
 
+## Prerequisites
+
+Ensure the following tools are installed:
+
+- [Node.js](https://nodejs.org/) **v18** or newer
+- [Hugo](https://gohugo.io/) **extended** edition version **0.111** or later
+
 ## Building
 
-The website is built using the [Hugo static site generator](https://gohugo.io/).
-
-Assuming you have Hugo and Node.js installed, you can reproduce the website on your local computer as follows:
+The website is built using the [Hugo static site generator](https://gohugo.io/). Once the prerequisites are met you can reproduce the website on your local computer as follows:
 
 ```bash
 # Clone the website
@@ -27,5 +32,11 @@ hugo serve
 
 # The website should be available at localhost port 1313
 xdg-open http://localhost:1313/
+```
+
+To generate a production build run:
+
+```bash
+hugo --minify
 ```
 
