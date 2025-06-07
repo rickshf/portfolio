@@ -61,17 +61,9 @@ function applyLanguage(lang) {
 function switchTo(lang) {
   localStorage.setItem('language', lang);
   applyLanguage(lang);
-  changePathPrefix(lang);
-}
-
-function changePathPrefix(lang) {
-  var path = window.location.pathname.split('/');
-  if(path[1] === 'en' || path[1] === 'pt') {
-    path[1] = lang;
-  } else {
-    path.splice(1,0,lang);
+  if (typeof translatePage === 'function') {
+    translatePage(lang);
   }
-  window.location.pathname = path.join('/');
 }
 
 langswitchButton.addEventListener('click', function() {
@@ -138,6 +130,12 @@ function moveToPrevOption(){
 var saved = localStorage.getItem('language');
 if(saved === 'pt') {
   applyLanguage('pt');
+  if (typeof translatePage === 'function') {
+    translatePage('pt');
+  }
 } else {
   applyLanguage('en');
+  if (typeof translatePage === 'function') {
+    translatePage('en');
+  }
 }

@@ -45,6 +45,9 @@
     <!-- Language switcher script -->
     {{ $langswitchjs := resources.Get "js/lang-switch.js" }}
     <script defer src="{{ $langswitchjs.RelPermalink }}"></script>
+    <!-- Page translation script -->
+    {{ $translatejs := resources.Get "js/translate.js" }}
+    <script defer src="{{ $translatejs.RelPermalink }}"></script>
     <!-- Hamburger menu switcher script -->
     {{ $hamburgerjs := resources.Get "js/hamburger.js" }}
     <script defer src="{{ $hamburgerjs.RelPermalink }}"></script>
