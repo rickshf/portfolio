@@ -28,7 +28,7 @@
     <!-- ------------------------------------------------------- -->
 
     <!-- Self-hosted Plausible analytics -->
-    <script defer data-domain="ejmastnak.com" src="https://plausible.ejmastnak.com/js/script.js"></script>
+    <script defer data-domain="rickshf.github.io" src="https://plausible.io/js/script.js"></script>
 
     <!-- Set dark theme if user preferences are saved in storage  -->
     <script>
@@ -73,8 +73,8 @@
       <!-- Footer with copyright -->
       {{ if .Params.showFooter }}
       <footer class="mt-auto text-sm sm:text-base -mb-4 px-4 xs:px-6 sm:px-8 pt-2 text-gray-400 dark:text-gray-500 flex gap-x-2 border-t border-gray-200 dark:border-gray-500 overflow-x-auto">
-        <p>©2025</p>
-        <MyLink href="https://ejmastnak.com" class="whitespace-nowrap">Henrique Almeida</MyLink>
+        <p>©{{ now.Year }}</p>
+        <a href="https://rickshf.github.io" class="whitespace-nowrap">Henrique Almeida</a>
         <a href="mailto:almeidah1945@gmail.com">almeidah1945@gmail.com</a>
         <a href="https://github.com/ejmastnak/ejmastnak.com">Adapted from ejmastnak.com</a>
       </footer>
