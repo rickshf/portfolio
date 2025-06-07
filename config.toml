@@ -14,3 +14,13 @@ enableGitInfo = true
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+  [languages.pt]
+    languageName = 'Português'
+    weight = 2
