@@ -21,7 +21,7 @@ module.exports = {
         'sans': ['Inter', ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
-        ejmastnak: {  // my custom typography theme; slight fork of default gray theme 
+        rickshf: {  // my custom typography theme; slight fork of default gray theme
           css: {
             '--tw-prose-body': theme('colors.gray[800]'),
             '--tw-prose-headings': theme('colors.gray[900]'),

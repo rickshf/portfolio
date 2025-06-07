@@ -1,4 +1,4 @@
-Based on the original repository from [ejmastnak.com](https://github.com/ejmastnak/ejmastnak.com). Thank You!
+Based on the original repository from [rickshf.github.io](https://github.com/rickshf/portfolio). Thank You!
 
 
 

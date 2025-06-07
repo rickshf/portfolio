@@ -15,7 +15,7 @@ You could:
   I love hearing from readers, and you'll almost certainly get a message back from me.
   If you feel like it, drop me a few lines about your background and/or how you found this site—I'm always interested to hear! 
 
-- [Contribute financially.](https://www.buymeacoffee.com/ejmastnak)
+- [Contribute financially.](https://www.buymeacoffee.com/rickshf)
   Based on reader input, there are in fact people out there interested in compensating me financially for material on this website.
   That's awesome---thank you!
-  You can [Buy Me a Coffee here.](https://www.buymeacoffee.com/ejmastnak)
+  You can [Buy Me a Coffee here.](https://www.buymeacoffee.com/rickshf)
