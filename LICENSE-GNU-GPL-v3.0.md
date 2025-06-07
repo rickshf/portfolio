@@ -1,4 +1,4 @@
-Based on the original repository from [ejmastnak.com](https://github.com/ejmastnak/ejmastnak.com).
+Based on the original repository from [rickshf.github.io](https://github.com/rickshf/portfolio).
 GNU General Public License
 ==========================
 
