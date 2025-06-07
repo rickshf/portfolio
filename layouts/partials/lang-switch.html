@@ -1,6 +1,10 @@
 <div class="flex gap-x-2">
   {{- range .Site.Languages }}
-    <a href="{{ "/" | relLangURL .Lang }}" class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $.Site.Language.Lang .Lang }}font-medium text-gray-900 dark:text-gray-200{{ end }}">
+    {{- $href := "/" -}}
+    {{- if ne .Lang $.Site.Language.Lang -}}
+      {{- $href = printf "/%s/" .Lang -}}
+    {{- end -}}
+    <a href="{{ $href | relURL }}" class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $.Site.Language.Lang .Lang }}font-medium text-gray-900 dark:text-gray-200{{ end }}">
       {{ upper .Lang }}
     </a>
   {{- end }}
