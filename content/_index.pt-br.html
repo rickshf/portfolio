@@ -1,0 +1,61 @@
+---
+title: "Início"
+date: 2022-12-04
+description: Página inicial de Henrique Almeida.
+showFooter: true
+---
+
+<main>
+
+  <div class="w-44 xxs:w-56 xs:w-60 sm:w-80">
+    <a href="/" class="link">
+      <div class="dark:hidden">
+        {{< logo/light >}}
+      </div>
+      <div class="hidden dark:block">
+        {{< logo/dark >}}
+      </div>
+    </a>
+  </div>
+
+  <div class="mt-6 xs:flex xs:flex-row-reverse">
+    <div class="hidden ml-2 w-40 h-40 xxs:inline xxs:float-right xs:inline-block xs:-mt-4 xs:ml-4 xs:w-44 xs:h-44 sm:-mt-12 sm:ml-6 sm:w-52 sm:h-52 md:w-60 md:h-60 md:ml-12 lg:w-72 lg:h-72  shrink-0 rounded-full overflow-hidden">
+      <img class="object-cover" src="/elijan.jpg" alt="Foto de perfil de Elijan nos Alpes Julianos" />
+    </div>
+
+    <p class="max-w-md lg:max-w-lg">
+      Você chegou ao site de Henrique Almeida.
+      Aqui estão meus projetos, anotações e tutoriais sobre software livre, desenvolvimento web e matemática.
+      Veja a lista de conteúdos <a href="/content" class="link">na página de Conteúdo</a>.
+    </p>
+  </div>
+
+  <section class="mt-8 sm:mt-4 md:-mt-6 lg:-mt-12">
+    <h2 class="text-2xl text-gray-600 dark:text-gray-300 font-semibold">Sobre mim</h2>
+    <p class="mt-3 max-w-lg lg:max-w-md">
+      Nasci em Arujá e estudo Desenvolvimento de Software na FATEC Jacareí.
+      Saiba mais <a href="/about" class="link">na página Sobre</a>.
+    </p>
+  </section>
+
+  <section class="mt-8 lg:mt-12 mb-8">
+    <h2 class="text-2xl text-gray-600 dark:text-gray-300 font-semibold">Primeira vez aqui?</h2>
+    <p class="mt-3">Alguns trabalhos recentes:</p>
+
+    <ul class="mt-5 ml-5 list-disc space-y-5">
+      <li class="max-w-lg">
+        <a href="/tutorials/install-python/" class="inline-block link font-semibold leading-snug">Como instalar Python</a>
+        <p class="mt-1 sm:mt-0 text-gray-600 dark:text-gray-300 text-sm">
+          Aprenda a instalar o Python no seu computador seguindo passos simples.
+        </p>
+      </li>
+      <li class="max-w-lg">
+        <a href="/notes/fmf/fmf/" class="inline-block link font-semibold leading-snug">Teoria dos Conjuntos</a>
+        <p class="mt-1 sm:mt-0 text-gray-600 dark:text-gray-300 text-sm">
+          Introdução básica à teoria dos conjuntos e seus conceitos principais.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+</main>

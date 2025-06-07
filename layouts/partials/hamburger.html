@@ -8,7 +8,7 @@
 <!-- hide the element entirely when JS is disabled and it won't work -->
 <div id="hamburger-container" class="hidden">
 
-  <label class="sr-only" id="hamburger-button-label">Navigation menu</label>
+<label class="sr-only" id="hamburger-button-label">{{ i18n "nav.menu" }}</label>
   <button
     id="hamburger-button"
     type="button"
@@ -51,8 +51,8 @@
       class="px-3 py-2 space-x-1 text-left text-gray-500 dark:text-gray-400">
       <a
         id="hamburger-link-home"
-        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Home" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
-        Home
+        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if or $currentPage.IsHome (eq $currentPage.RelPermalink "/") }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
+        {{ i18n "nav.home" }}
       </a>
     </li>
 
@@ -65,8 +65,8 @@
       class="px-3 py-2 space-x-1 text-left text-gray-500 dark:text-gray-400">
       <a
         id="hamburger-link-content"
-        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Content" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
-        Content
+        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/content/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
+        {{ i18n "nav.content" }}
       </a>
     </li>
 
@@ -79,8 +79,8 @@
       class="px-3 py-2 space-x-1 text-left text-gray-500 dark:text-gray-400">
       <a
         id="hamburger-link-contact"
-        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Contact" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
-        Contact
+        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/contact/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
+        {{ i18n "nav.contact" }}
       </a>
     </li>
 
@@ -93,8 +93,8 @@
       class="px-3 py-2 space-x-1 text-left text-gray-500 dark:text-gray-400">
       <a
         id="hamburger-link-about"
-        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "About" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
-        About
+        class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/about/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
+        {{ i18n "nav.about" }}
       </a>
     </li>
 

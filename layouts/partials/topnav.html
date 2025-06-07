@@ -25,29 +25,29 @@
 
       <!-- Home -->
       <li class="hidden sm:block">
-        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Home" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
-          Home
+        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if or $currentPage.IsHome (eq $currentPage.RelPermalink "/") }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
+          {{ i18n "nav.home" }}
         </a>
       </li>
 
       <!-- Content -->
       <li class="hidden sm:block">
-        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Content" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
-          Content
+        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/content/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
+          {{ i18n "nav.content" }}
         </a>
       </li>
 
       <!-- Contact -->
       <li class="hidden sm:block">
-        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Contact" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
-          Contact
+        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/contact/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
+          {{ i18n "nav.contact" }}
         </a>
       </li>
 
       <!-- About -->
       <li class="hidden sm:block">
-        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "About" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
-          About
+        <a class="text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/about/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
+          {{ i18n "nav.about" }}
         </a>
       </li>
 
@@ -63,23 +63,23 @@
       <noscript>
         <div class="ml-auto sm:hidden flex flex-wrap gap-x-3">
           <!-- Home -->
-          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Home" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
-            Home
+          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if or $currentPage.IsHome (eq $currentPage.RelPermalink "/") }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/">
+            {{ i18n "nav.home" }}
           </a>
 
           <!-- Content -->
-          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Content" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
-            Content
+          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/content/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/content">
+            {{ i18n "nav.content" }}
           </a>
 
           <!-- Contact -->
-          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "Contact" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
-            Contact
+          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/contact/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/contact">
+            {{ i18n "nav.contact" }}
           </a>
 
           <!-- About -->
-          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.Title "About" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
-            About
+          <a class="inline-block text-gray-500 dark:text-gray-400 hover:underline hover:text-sky-600 {{ if eq $currentPage.RelPermalink "/about/" }}font-medium text-gray-900 dark:text-gray-200{{ end }}"href="/about">
+            {{ i18n "nav.about" }}
           </a>
 
         </div>

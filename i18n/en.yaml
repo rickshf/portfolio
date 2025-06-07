@@ -1,0 +1,18 @@
+- id: nav.home
+  translation: "Home"
+- id: nav.content
+  translation: "Content"
+- id: nav.contact
+  translation: "Contact"
+- id: nav.about
+  translation: "About"
+- id: nav.menu
+  translation: "Navigation menu"
+- id: theme.label
+  translation: "Theme"
+- id: theme.light
+  translation: "Light"
+- id: theme.dark
+  translation: "Dark"
+- id: theme.system
+  translation: "System"
