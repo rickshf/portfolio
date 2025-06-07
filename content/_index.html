@@ -9,24 +9,26 @@ showFooter: true
 
   <div class="mt-6 xs:flex xs:flex-row-reverse">
 
-    <div class="hidden ml-2 w-40 h-40 xxs:inline xxs:float-right xs:inline-block xs:-mt-4 xs:ml-4 xs:w-44 xs:h-44 sm:-mt-12 sm:ml-6 sm:w-52 sm:h-52 md:w-60 md:h-60 md:ml-12 lg:w-72 lg:h-72  shrink-0 rounded-full overflow-hidden">
-      <img
-        class="object-cover"
-        src="/elijan.jpg"
-        alt="A profile picture of Henrique Almeida in the Julian Alps"
-      />
-    </div>
+    <div class="flex flex-col items-center xs:-mt-4 sm:-mt-12 xs:ml-4 sm:ml-6 md:ml-12">
+      <div class="hidden ml-2 w-40 h-40 xxs:inline xxs:float-right xs:inline-block xs:w-44 xs:h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 lg:w-72 lg:h-72 shrink-0 rounded-full overflow-hidden">
+        <img
+          class="object-cover"
+          src="/elijan.jpg"
+          alt="A profile picture of Henrique Almeida in the Julian Alps"
+        />
+      </div>
 
-    <!-- Henrique logo below profile picture -->
-    <div class="w-44 xxs:w-56 xs:w-60 sm:w-80 mt-2 xs:mt-0 xs:mr-4">
-      <a href="/" class="link">
-        <div class="dark:hidden">
-          {{< logo/light >}}
-        </div>
-        <div class="hidden dark:block">
-          {{< logo/dark >}}
-        </div>
-      </a>
+      <!-- Henrique logo below profile picture -->
+      <div class="w-44 xxs:w-56 xs:w-60 sm:w-80 mt-2">
+        <a href="/" class="link">
+          <div class="dark:hidden">
+            {{< logo/light >}}
+          </div>
+          <div class="hidden dark:block">
+            {{< logo/dark >}}
+          </div>
+        </a>
+      </div>
     </div>
 
     <!-- Intro to the website -->
