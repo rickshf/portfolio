@@ -42,9 +42,6 @@
     <!-- Dark/light theme switcher script -->
     {{ $themeswitchjs := resources.Get "js/theme-switch.js" }}
     <script defer src="{{ $themeswitchjs.RelPermalink }}"></script>
-    <!-- Language switcher script -->
-    {{ $langswitchjs := resources.Get "js/lang-switch.js" }}
-    <script defer src="{{ $langswitchjs.RelPermalink }}"></script>
     <!-- Hamburger menu switcher script -->
     {{ $hamburgerjs := resources.Get "js/hamburger.js" }}
     <script defer src="{{ $hamburgerjs.RelPermalink }}"></script>
