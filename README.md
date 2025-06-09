@@ -19,7 +19,7 @@ The website is built using the [Hugo static site generator](https://gohugo.io/).
 git clone https://github.com/rickshf/rickshf.github.io
 
 # Change into the website root directory
-cd cd rickshf.github.io/
+cd rickshf.github.io/
 
 # Install Node packages (for TailwindCSS)
 npm install
