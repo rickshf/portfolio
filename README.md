@@ -16,7 +16,7 @@ The website is built using the [Hugo static site generator](https://gohugo.io/).
 
 ```bash
 # Clone the website
-git clone https://github.com/rickshf/portfolio
+git clone https://github.com/rickshf/rickshf.github.io
 
 # Change into the website root directory
 cd portfolio
